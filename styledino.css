@@ -1,0 +1,55 @@
+*{
+  margin: 0 ;
+  padding: 0 ;
+
+  
+}
+
+#game{
+
+
+  width: 530px;
+  height: 200px;
+  border: 1px solid rgb(11, 7, 7);
+background-image: url(./imagens/background.png);
+ }
+.dino{
+ background-image: url(./imagens/dino.png);
+
+  width: 60px;
+  height: 60px;
+  position: relative;
+  top: 138px;
+
+}
+ 
+.animar{
+  animation: dino 750ms infinite
+} 
+
+@keyframes dino{
+  0% {top:150px;}
+  40% {top:45px;}
+
+  70% {top: 45px;}
+  100% {top: 150px;}
+
+
+
+  
+}
+.cacto{
+  background-image: url(./imagens/cactus.png);
+  width: 60px;
+  height: 60px;
+  position: relative;
+  top: 78px;
+  left: 480px;
+animation: cact 1.5s infinite linear;
+}
+
+@keyframes cact{
+  0% {left: 480px;}
+
+  100%{left: -80px;}
+}
