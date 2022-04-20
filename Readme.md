@@ -1,7 +1,7 @@
 # Projeto Desafio do  DIO.me
 
 ## Introduçao 
-neste projetofoi criado um joguinho do dinossauro sem internet  
+neste projeto foi criado um joguinho do dinossauro sem internet  
 
 * Quais tecnologia foram usadas 
 (HTML, CSS ,JAVASCRIPT)
